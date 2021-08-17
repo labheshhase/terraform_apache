@@ -1,14 +1,14 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIAVY3XUGCACM76OQGS"
-  secret_key = "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"
+  access_key = "AKIAVY3XUGCAFOTLFEAE"
+  secret_key = "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"
 }
 
 
 
 #Create key-pair for logging into EC2 in us-east-1
 resource "aws_key_pair" "webserver-key" {
-  key_name   = "webserver-key"
+  key_name   = "terraform-master"
 }
 
 
